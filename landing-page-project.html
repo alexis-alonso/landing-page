@@ -16,13 +16,14 @@
   </head>
   
   <body>
+
     <!-- top navbar to start -->
     <nav class="navbar bg-success">
       <div class="container-fluid">
 
         <!-- border around the 'brand-logo', my own styling -->
-        <span class="border border-4 rounded-3">
-          <a class="navbar-brand" href="#" id="brand-logo">The A+ Drum Corps!</a>
+        <span class="border border-4 rounded-3 mx-auto">
+          <a class="navbar-brand fs-1" href="#" id="brand-logo">The A+ Drum Corps!</a>
         </span>
 
       </div>
@@ -30,17 +31,57 @@
     
 
     <!-- Landing Page Summary -->
-    <div class="container">
+    <div class="container my-5">
+
+      <!-- Image tag carousel -->
+      <div class="carousel slide" id="carousel-dci-pics" data-bs-ride="carousel">
+
+        <!-- Carousel images -->
+        <div class="carousel-inner">
+          
+          <div class="carousel-item active">
+            <img src="https://assets.dci.org/5b3a333bafb0f96a081f5ae2_2sIa7pcwxrUPyq6wXi5JaKDMCZ_bGXQh.jpg" class="d-block w-100" alt="dci-finalist-cadets">
+          </div>
+
+          <div class="carousel-item">
+            <img src="https://www.imsb.it/wp-content/uploads/2013/12/Drum-Corps-International-2015-World-Champion-Blue-Devils.jpg" class="d-block w-100" alt="dci-finalist-blue-devils">
+          </div>
+
+          <div class="carousel-item">
+            <img src="https://www.moderndrummer.com/wp-content/uploads/2018/11/Santa_Clara_Vanguard_by_LVW.jpg" class="d-block w-100" alt="dci-finalist-scv">
+          </div>
+        </div>
+
+        <!-- Carousel buttons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-dci-pics" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-dci-pics" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      </div>
+    </div>
+
+
+    
+    <div class="container my-5">
+
+      <!-- Like and Subscribe text! -->
       <div class="row">
 
-        <div class="col-lg ">
+        <div class="col-lg mx-auto">
           <p class="text-center">
             Sign up with your email address to receive updates and a link to the DCI Finals stream for FREE!
           </p>
         </div>
         
       </div>
-    </div>      
+
+    </div>   
+
   </body>
   
 </html>
