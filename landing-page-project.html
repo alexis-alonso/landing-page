@@ -72,12 +72,26 @@
       <!-- Like and Subscribe text! -->
       <div class="row">
 
+        <!-- advertising text -->
         <div class="col-lg mx-auto">
           <p class="text-center">
             Sign up with your email address to receive updates and a link to the DCI Finals stream for FREE!
           </p>
         </div>
-        
+
+        <!-- subscribe-to-email form, custom margin and sizing, using Bootstrap flex classes -->
+        <form class="row g-3 d-flex justify-content-center">
+
+          <div class="col-auto">
+            <label for="email" class="visually-hidden">Email</label>
+            <input type="email" class="form-control" id="subscribe-to-email" placeholder="Email">
+          </div>
+
+          <div class="col-auto">
+            <button type="submit" class="btn btn-success mb-3">Subscribe!</button>
+          </div>
+        </form>    
+
       </div>
 
     </div>   
